@@ -46,4 +46,95 @@ Load Data:
 SELECT *
 FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
 ```
+
+``` SQL
+SELECT
+    column_name
+FROM
+    `radiant-snow-431503-g4.World_Happiness_Report.INFORMATION_SCHEMA.COLUMNS`
+WHERE
+    table_name = 'happiness_2019';
+```
+
 Check for Missing Values:
+``` SQL
+SELECT
+    COUNTIF(`Overall rank` IS NULL) AS missing_overall_rank,
+    COUNTIF(`Country or region` IS NULL) AS missing_country_or_region,
+    COUNTIF(`Score` IS NULL) AS missing_score,
+    COUNTIF(`GDP per capita` IS NULL) AS missing_gdp_per_capita,
+    COUNTIF(`Social support` IS NULL) AS missing_social_support,
+    COUNTIF(`Healthy life expectancy` IS NULL) AS missing_healthy_life_expectancy,
+    COUNTIF(`Freedom to make life choices` IS NULL) AS missing_freedom_to_make_life_choices,
+    COUNTIF(`Generosity` IS NULL) AS missing_generosity,
+    COUNTIF(`Perceptions of corruption` IS NULL) AS missing_perceptions_of_corruption
+FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
+```
+
+Handle Missing Values:
+
+Drop rows with missing values if the number is insignificant.
+Use mean/median imputation for numerical columns.
+Use mode imputation for categorical columns.
+Check for Duplicates:
+
+``` SQL
+SELECT
+    `Country or region`, COUNT(*)
+FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`
+GROUP BY `Country or region`
+HAVING COUNT(*) > 1;
+```
+Remove Duplicates:
+
+``` SQL
+DELETE FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`
+WHERE row_number NOT IN (
+    SELECT MIN(row_number)
+    FROM (
+        SELECT *,
+            ROW_NUMBER() OVER (PARTITION BY Country, Region ORDER BY Country) AS row_number
+        FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`
+    )
+);
+```
+Analysis:
+
+Summary:
+
+Descriptive Statistics:
+
+``` SQL
+
+SELECT
+    AVG(Score) AS avg_happiness_score,
+    MIN(Score) AS min_happiness_score,
+    MAX(Score) AS max_happiness_score,
+    STDDEV(Score) AS stddev_happiness_score
+FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
+```
+
+Correlation Analysis:
+
+``` SQL
+SELECT
+    CORR(Score, `GDP per capita`) AS corr_gdp_happiness,
+    CORR(Score, `Social support`) AS corr_social_support_happiness,
+    CORR(Score, `Healthy life expectancy`) AS corr_life_expectancy_happiness,
+    CORR(Score, `Freedom to make life choices`) AS corr_freedom_happiness,
+    CORR(Score, Generosity) AS corr_generosity_happiness,
+    CORR(Score, `Perceptions of corruption`) AS corr_corruption_happiness
+FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
+```
+
+Regional Analysis:
+
+``` SQL
+SELECT
+    `Country or region` AS Region,
+    AVG(Score) AS avg_happiness_score,
+    COUNT(*) AS num_countries
+FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`
+GROUP BY `Country or region`
+ORDER BY avg_happiness_score DESC;
+```
