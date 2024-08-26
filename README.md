@@ -47,6 +47,8 @@ SELECT *
 FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
 ```
 
+list all columns 
+
 ``` SQL
 SELECT
     column_name
