@@ -73,9 +73,10 @@ FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
 
 Handle Missing Values:
 
-Drop rows with missing values if the number is insignificant.
-Use mean/median imputation for numerical columns.
-Use mode imputation for categorical columns.
+- Drop rows with missing values if the number is insignificant.
+- Use mean/median imputation for numerical columns.
+- Use mode imputation for categorical columns.
+
 Check for Duplicates:
 
 ``` SQL
