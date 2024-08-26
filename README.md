@@ -37,3 +37,13 @@ The data cleaning process involves:
 
 This cleaned data will be the foundation for subsequent analysis and visualization tasks aimed at understanding global happiness trends and influencing factors.
 
+Data Cleaning:
+
+Process:
+
+Load Data:
+``` SQL
+SELECT *
+FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
+```
+Check for Missing Values:
