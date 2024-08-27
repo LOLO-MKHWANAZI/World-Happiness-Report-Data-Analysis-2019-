@@ -188,3 +188,17 @@ The following visualizations will be created using Tableau:
 - The lowest scores are observed in countries like **South Sudan** and the **Central African Republic**, with scores around **2.853**, indicating significant challenges in these regions.
 - There is a clear gradient in happiness scores, with countries in Europe and the Americas generally scoring higher, while those in Africa and parts of Asia score lower.
 - The color gradient from green to red visually emphasizes the disparity in happiness levels across different regions.
+
+### Factors Influencing Happiness
+
+![Factors Influencing Happiness (Scatter Plots) (2)](https://github.com/user-attachments/assets/c92e9329-5f85-4aef-b14e-ea2f984b3997)
+
+3. ### Factors Influencing Happiness (Scatter Plots)
+- **Purpose:** These scatter plots analyze the correlation between GDP per capita and happiness scores, aiming to explore the relationship between economic prosperity and happiness.
+
+- **Observations:**
+
+- There is a **positive correlation** between GDP per capita and happiness score, with countries that have higher GDP per capita generally scoring higher in happiness. This is evident from the upward trend in the scatter plot.
+- Countries with high GDP per capita like **Luxembourg**, **Norway**, and **Switzerland** are clustered towards the top-right of the plot, indicating that economic wealth is a significant factor in achieving higher happiness scores.
+- Conversely, countries with lower GDP per capita, such as **Afghanistan** and **South Sudan**, are found in the lower-left corner, suggesting that lower economic prosperity is associated with lower happiness.
+- The scatter plot also reveals outliers, where some countries with moderate GDP per capita achieve relatively high happiness scores, indicating that other factors beyond economic wealth contribute to happiness.
