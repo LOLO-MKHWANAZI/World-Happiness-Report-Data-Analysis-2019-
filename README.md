@@ -209,3 +209,8 @@ The following visualizations will be created using Tableau:
 - Countries with high GDP per capita like **Luxembourg**, **Norway**, and **Switzerland** are clustered towards the top-right of the plot, indicating that economic wealth is a significant factor in achieving higher happiness scores.
 - Conversely, countries with lower GDP per capita, such as **Afghanistan** and **South Sudan**, are found in the lower-left corner, suggesting that lower economic prosperity is associated with lower happiness.
 - The scatter plot also reveals outliers, where some countries with moderate GDP per capita achieve relatively high happiness scores, indicating that other factors beyond economic wealth contribute to happiness.
+
+### Global Distribution of Happiness Scores
+
+![Global Distribution of Happiness Scores](https://github.com/user-attachments/assets/f477d443-abc5-4279-ae7d-c3771c18db68)
+
