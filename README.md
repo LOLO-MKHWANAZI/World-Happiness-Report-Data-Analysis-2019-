@@ -48,6 +48,7 @@ Load Data:
 ``` SQL
 SELECT *
 FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`;
+
 ```
 
 list all columns 
@@ -156,3 +157,19 @@ The following visualizations will be created using Tableau:
 
 ### Factors Influencing Happiness
 - **Scatter Plots:** Displaying correlations between the happiness score and each factor (GDP per capita, social support, etc.) to identify the most significant contributors to happiness.
+
+
+
+### Happiness Score Distribution
+
+![Happiness Score Distribution (Histogram) (4)](https://github.com/user-attachments/assets/3dc7ec58-e9c7-454b-a32e-dc65a54f3509)
+
+1. ### Happiness Score Distribution (Histogram)
+- **Purpose:** This histogram visualizes the distribution of happiness scores across various countries, providing insight into the global spread of happiness levels.
+
+- **Observations:**
+
+- The majority of countries fall within the happiness score range of **4.5** to **6.5**.
+- The highest concentration is in the **6.0** score range, with **174** countries falling within this range.
+- Very few countries have scores below **3.5** or above **7.5**, indicating that extreme levels of happiness or unhappiness are rare.
+- The color gradient (red to green) indicates that higher happiness scores are associated with a greater number of countries, suggesting that a moderately high level of happiness is common worldwide.
