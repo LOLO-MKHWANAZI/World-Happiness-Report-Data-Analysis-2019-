@@ -37,18 +37,7 @@ The data cleaning process involves:
 
 This cleaned data will serve as the foundation for subsequent analysis and visualization tasks aimed at understanding global happiness trends and influencing factors.
 
-## Visualization
 
-The following visualizations will be created using Tableau:
-
-### Happiness Score Distribution
-- **Histogram:** Displaying the distribution of happiness scores across countries to understand the overall spread and identify any common ranges.
-
-### Happiness Score by Region
-- **Bar Chart:** Showing the average happiness scores by region, which will highlight the geographical differences in happiness levels.
-
-### Factors Influencing Happiness
-- **Scatter Plots:** Displaying correlations between the happiness score and each factor (GDP per capita, social support, etc.) to identify the most significant contributors to happiness.
 
 
 Data Cleaning:
@@ -155,3 +144,15 @@ FROM `radiant-snow-431503-g4.World_Happiness_Report.happiness_2019`
 GROUP BY `Country or region`
 ORDER BY avg_happiness_score DESC;
 ```
+## Visualization
+
+The following visualizations will be created using Tableau:
+
+### Happiness Score Distribution
+- **Histogram:** Displaying the distribution of happiness scores across countries to understand the overall spread and identify any common ranges.
+
+### Happiness Score by Region
+- **Bar Chart:** Showing the average happiness scores by region, which will highlight the geographical differences in happiness levels.
+
+### Factors Influencing Happiness
+- **Scatter Plots:** Displaying correlations between the happiness score and each factor (GDP per capita, social support, etc.) to identify the most significant contributors to happiness.
