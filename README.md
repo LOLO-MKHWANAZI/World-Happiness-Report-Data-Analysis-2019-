@@ -173,3 +173,18 @@ The following visualizations will be created using Tableau:
 - The highest concentration is in the **6.0** score range, with **174** countries falling within this range.
 - Very few countries have scores below **3.5** or above **7.5**, indicating that extreme levels of happiness or unhappiness are rare.
 - The color gradient (red to green) indicates that higher happiness scores are associated with a greater number of countries, suggesting that a moderately high level of happiness is common worldwide.
+
+
+### Happiness Score by Region
+
+![Happiness Score by Region (Bar Chart) (3)](https://github.com/user-attachments/assets/bf6f536c-0c9f-45c9-afd9-b34fd1f7d235)
+
+2. ### Happiness Score by Region (Bar Chart)
+- **Purpose:** This bar chart ranks countries by their average happiness scores in 2019, highlighting regional differences in happiness.
+
+- **Observations:**
+
+- **Finland** has the highest average happiness score at **7.769**, followed closely by other Nordic countries like **Denmark** and **Norway**. This suggests a high level of overall happiness in these regions.
+- The lowest scores are observed in countries like **South Sudan** and the **Central African Republic**, with scores around **2.853**, indicating significant challenges in these regions.
+- There is a clear gradient in happiness scores, with countries in Europe and the Americas generally scoring higher, while those in Africa and parts of Asia score lower.
+- The color gradient from green to red visually emphasizes the disparity in happiness levels across different regions.
