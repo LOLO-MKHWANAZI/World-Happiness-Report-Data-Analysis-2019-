@@ -158,7 +158,14 @@ The following visualizations will be created using Tableau:
 ### Factors Influencing Happiness
 - **Scatter Plots:** Displaying correlations between the happiness score and each factor (GDP per capita, social support, etc.) to identify the most significant contributors to happiness.
 
+### Global Distribution of Happiness Scores
+- **Map Visualization:** This map shows the geographic distribution of happiness scores by country or region.  
 
+### Bar Chart by Region
+- This bar chart visualizes the average happiness scores across different countries and regions.
+
+### Box Plot
+- The box plot visualizes the distribution of happiness scores within each region.
 
 ### Happiness Score Distribution
 
