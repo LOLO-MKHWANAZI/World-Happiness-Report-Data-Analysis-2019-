@@ -5,7 +5,7 @@
 ## Business Task
 
 ### Statement
-The objective of this analysis is to examine the World Happiness Report data for the year 2019. The goal is to derive insights and trends related to global happiness levels and identify the key factors that influence them across different countries.
+The objective of this analysis is to examine the World Happiness Report data for the year 2019. The goal is to derive insights and trends related to global happiness levels and identify the key factors that influence them across different countries. This analysis will leverage tools such as Google Cloud, BigQuery, R, and Tableau.
 
 ## Data Sources
 
@@ -28,14 +28,28 @@ These metrics provide a comprehensive overview of the factors contributing to ha
 
 ### Process
 The data cleaning process involves:
-1. **Data Inspection:** Reviewing the dataset for missing values, inconsistencies, or errors.
-2. **Handling Missing Values:** Deciding on the treatment of missing data, whether through imputation, deletion, or other methods.
+1. **Data Inspection:** Reviewing the dataset for missing values, inconsistencies, or errors using BigQuery.
+2. **Handling Missing Values:** Deciding on the treatment of missing data, whether through imputation, deletion, or other methods, potentially using R for more advanced handling techniques.
 3. **Standardization:** Ensuring that all data fields are in a consistent format, including numerical values and categorical labels.
 4. **Outlier Detection:** Identifying and managing any outliers that could skew the analysis.
 5. **Data Integration:** Combining related data fields or sources if needed to enrich the dataset.
 6. **Final Review:** Verifying that the cleaned dataset is ready for analysis, with all relevant fields accurately prepared.
 
-This cleaned data will be the foundation for subsequent analysis and visualization tasks aimed at understanding global happiness trends and influencing factors.
+This cleaned data will serve as the foundation for subsequent analysis and visualization tasks aimed at understanding global happiness trends and influencing factors.
+
+## Visualization
+
+The following visualizations will be created using Tableau:
+
+### Happiness Score Distribution
+- **Histogram:** Displaying the distribution of happiness scores across countries to understand the overall spread and identify any common ranges.
+
+### Happiness Score by Region
+- **Bar Chart:** Showing the average happiness scores by region, which will highlight the geographical differences in happiness levels.
+
+### Factors Influencing Happiness
+- **Scatter Plots:** Displaying correlations between the happiness score and each factor (GDP per capita, social support, etc.) to identify the most significant contributors to happiness.
+
 
 Data Cleaning:
 
