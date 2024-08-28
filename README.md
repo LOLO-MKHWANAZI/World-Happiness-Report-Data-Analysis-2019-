@@ -214,3 +214,53 @@ The following visualizations will be created using Tableau:
 
 ![Global Distribution of Happiness Scores](https://github.com/user-attachments/assets/f477d443-abc5-4279-ae7d-c3771c18db68)
 
+4. ### Global Distribution of Happiness Scores (Map Visualization)
+**Description:**
+
+- This map shows the geographic distribution of happiness scores by country or region. Each country is represented by a colored circle, with the color indicating the happiness score, ranging from **2.853** to **7.769**.
+- Countries are categorized by their happiness scores, and a legend is provided to match the colors with the score ranges.
+**Key Insights:**
+
+- **High Happiness Scores:** Countries in Northern and Western Europe (e.g., Finland, Norway, Denmark) generally have high happiness scores, indicating a strong sense of well-being.
+- **Moderate Happiness Scores:** Countries in the Americas and parts of Asia (e.g., the United States, Canada, Japan) display moderate happiness scores.
+- **Low Happiness Scores:** Some countries in Africa and the Middle East have lower happiness scores, reflecting challenges in well-being.
+**Observations:**
+
+- The map effectively illustrates the global variation in happiness, showing a concentration of high scores in Europe and lower scores in certain regions of Africa and the Middle East.
+
+  ### Bar Chart by Region
+
+  ![Bar Chart by Region](https://github.com/user-attachments/assets/34bd5bc9-4e63-45d8-9f98-49e1134d0d17)
+
+  5. ### Bar Chart by Region
+**Description:**
+
+- This bar chart visualizes the average happiness scores across different countries and regions. Each bar represents a country, with the length of the bar corresponding to the happiness score.
+- The countries are arranged in ascending order of happiness scores.
+**Key Insights:**
+
+- **Highest Happiness Scores:** **Finland (7.769)**, **Denmark (7.600)**, and **Norway (7.554)** are among the top-ranked countries with the highest happiness scores.
+- **Lowest Happiness Scores:** Countries like **South Sudan (2.853)**, **Central African Republic (3.083)**, and **Afghanistan (3.203)** have the lowest happiness scores.
+- **Regional Averages:** The chart also shows regional trends, with Northern European countries generally scoring higher compared to other regions.
+**Observations:**
+
+- The bar chart effectively highlights the disparity in happiness scores between different countries and regions. It allows for an easy comparison of happiness levels across the globe.
+
+
+### Box Plot
+
+![Box Plot (1)](https://github.com/user-attachments/assets/0529b4d2-8e8b-48c2-a9e9-d8bf9f664ed1)
+
+6. ### Box Plot
+**Description:**
+
+- The box plot visualizes the distribution of happiness scores within each region. Each box represents the interquartile range (IQR) of scores for a specific region, with the median indicated by a line inside the box.
+- Outliers, if any, are marked outside the whiskers of the plot.
+**Key Insights:**
+
+- **Regions with High Variability:** Some regions, like **Sub-Saharan Africa**, display a wide range of happiness scores, indicating high variability in well-being within the region.
+- **Regions with Low Variability:** **Northern European** countries show less variability, with consistently high happiness scores across the region.
+- **Median Happiness Scores:** The median scores provide insight into the central tendency of happiness within each region, with **Northern Europe** having the highest median scores.
+**Observations:**
+
+- The box plot is useful for understanding the spread and distribution of happiness scores within different regions, highlighting both the consistency and variability of well-being across the world.
