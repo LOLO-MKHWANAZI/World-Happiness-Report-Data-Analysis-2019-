@@ -264,3 +264,10 @@ The following visualizations will be created using Tableau:
 **Observations:**
 
 - The box plot is useful for understanding the spread and distribution of happiness scores within different regions, highlighting both the consistency and variability of well-being across the world.
+
+
+## Summary
+
+The visualizations collectively provide a comprehensive view of the global distribution of happiness in 2019. The map reveals geographic trends in happiness scores across countries, highlighting areas of both high and low well-being. The bar chart allows for a detailed comparison of happiness levels among individual countries, showcasing significant disparities. The box plot offers insights into the regional distributions and variability of happiness scores, illustrating how well-being differs across regions.
+
+Together, these visualizations reveal substantial global disparities in happiness, with certain regions consistently ranking higher or lower in terms of overall well-being. The findings suggest that while wealth is a significant contributor to happiness, it is not the only factor. Other elements, such as social support, freedom, and life expectancy, also play crucial roles in shaping happiness levels across the world.
